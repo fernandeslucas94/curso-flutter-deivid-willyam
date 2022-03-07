@@ -36,7 +36,7 @@ void main() {
   
   // Se assemelha ao que em outras linguagens chamamos de array, ou matriz.
 
-  // Por o Dart ser uma linguagem fortemente tipada, ao declararmos que a variável irá receber uma lista como valor, devemos color entre os sinais de maior que e menor que, qual o tipo de dado que será armazenado na lista.
+  // Por o Dart ser uma linguagem fortemente tipada, ao declararmos que a variável irá receber uma lista como valor, devemos colocar entre os sinais de maior que e menor que, qual o tipo de dado que será armazenado na lista.
   
   List<String> nomes = ['Lucas', 'Chica', 'Jack'];
   List<int> numerosAleatorios = [1, 10, 100, 1000];
