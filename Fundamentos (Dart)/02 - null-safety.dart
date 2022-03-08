@@ -22,6 +22,8 @@ void main() {
   // O Dart, após o Null Safety, não permite que variáveis tenham valores nulos!
   
   // Ex:
+  String nome;
+  print(nome);
    // Mensagem de erro logo abaixo
 
   /* 
@@ -51,8 +53,7 @@ void main() {
 
   // Também existe o que chamamos de late. O que ele faz ? Ele informa que a variável irá iniciar como nula, mas logo mais a frente no ciclo de vida da aplicação, irá receber algum valor. E após isto, esta variável nunca mais irá receber um valor nulo!
 
-  // Ex:
-  late double? peso;
+  double? peso;
   peso = 65.3;
   print(peso);
 }
