@@ -22,7 +22,7 @@ void main() {
   // O Dart, após o Null Safety, não permite que variáveis tenham valores nulos!
   
   // Ex:
-  String nome;
+  final String nome;
   print(nome);
    // Mensagem de erro logo abaixo
 
