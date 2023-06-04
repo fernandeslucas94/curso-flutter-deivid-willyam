@@ -25,12 +25,17 @@ void main() {
     print("Usuário de número $i");
   }
 
+  /// Podemos também utilizar a estrutura do FOR de uma maneira diferente. Ao invés de trabalharmos da maneira exemplificada anteriormente, podemos fazer de uma forma a qual reduz o trabalho da escrita de código, mas ainda assim realiza o trabalho da maneira correta!
+
+  List<int> numeros = [2, 5, 20, 50];
+
+  for(int i in numeros) {
+    print("O número é: $i");
+  }
+
   /// Devemos citar que normalmente declaramos a variável i com o valor de 0, pois na programação, os elemtentos que estão na primeira posição de uma lista, por exemplo, não estão na posição 1, e sim na posição de número 0.
   /// 
   /// Mas a título de exemplo, nós declaramos a variável i contendo o valor de 1.
-  
-
-
 
   /// Falaremos agora de Estrutura de Repetição chamada WHILE.
   /// 
@@ -45,5 +50,6 @@ void main() {
 
   while(numeroAleatorio) {
     print("Verdadeiro");
+    break;
   }
 }

@@ -13,8 +13,6 @@ void main() {
   /// 
   /// É necessário que se evitem valores nulos, para que justamente como foi dito acima, não ocorram erros na aplicação, provocando problemas na usabilidade por parte dos usuários, causando assim, insatisfação, transtornos no uso do dia a dia, e consequentemente, desistência por parte dos usuários, da utilização da aplicação. E nós não queremos isto, não é mesmo ?
   
-
-  
   
   // Abaixo iremos demonstrar algumas funcionalidades, ou features, que estão incluídas no Null Safety e como podemos utilizá-las!
 
@@ -53,7 +51,7 @@ void main() {
 
   // Também existe o que chamamos de late. O que ele faz ? Ele informa que a variável irá iniciar como nula, mas logo mais a frente no ciclo de vida da aplicação, irá receber algum valor. E após isto, esta variável nunca mais irá receber um valor nulo!
 
-  double? peso;
+  late double? peso;
   peso = 65.3;
   print(peso);
 }

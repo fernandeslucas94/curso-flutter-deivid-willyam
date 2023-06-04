@@ -30,12 +30,17 @@ void main() {
   /// 
   /// Ex:
   
-  int idade = 18;
+  int idade = 15;
+
   if(idade >= 18) {
     print("Você poderá entrar no cinema!");
   } else {
     print("Infelizmente você não poderá assistir a este filme!");
   }
+
+  /// Também podemos utilizar a condicional ternária para verificaros se uma condição é satisfeita ou não:
+
+  idade >= 18 ? print("Você pode entrar!") : print("Você não poderá entrar!");
 
   /// No caso do IF, devemos adicionar entre os parênteses uma condição para que seja verificada, para caso seja satisfeita esta condição, a verificação siga para o trecho de código entre as chaves e execute-o! Caso a condição não seja satisfeita, a verificação irá passar pelo primeiro trecho de cógido, que está presente nas primeiras chaves, e irá seguir para o ELSE para realizar a segunda verificação de condição.
   /// 
@@ -49,16 +54,15 @@ void main() {
   /// 
   /// Ex:
   
-  int idadeDoUsuario = 18;
+  int idadeDoUsuario = 16;
 
   switch(idadeDoUsuario) {
-    case 18:
+    case >= 18:
       print("Você poderá entrar no cinema!");
       break;
 
-    case 17: 
-    case 16:
-      print("Você não poderá entrar!");
+    case < 18:
+      print("Infelizmente, você não poderá entrar nesta seção!");
       break;
   }
 

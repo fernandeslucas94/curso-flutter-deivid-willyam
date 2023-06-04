@@ -1,5 +1,5 @@
 void main() {
-
+  
   /// Neste seção serão ensinados e explicados os conceitos relativos a variáveis no Dart
   
   /// O Dart é uma linguagem fortemente tipada. O que isto quer dizer ? Quer dizer que no Dart, sempre que for necessário declarar uma variável, é necessário definir qual será o tipo da variável. Logo abaixo será melhor explicado e demonstrado este conceito.
@@ -9,6 +9,7 @@ void main() {
   // O tipo String é utilizado sempre que for atribuido a variável, um valor que seja em texto. Pode-se utilizar aspas duplas ou simples, mas por precaução e padronização, devemos buscar constantemente utilizar aspas duplas.
 
   String nome = "Lucas";
+  print(nome);
 
 
   // - Int
@@ -16,12 +17,14 @@ void main() {
   // Sendo assim, deve-se somente atribuir valores que sejam inteiros, ou seja, não deve atribuir-se para a variável do tipo int, valores que tenham ponto e valores após ele.
 
   int idade = 27;
+  print(idade);
 
 
   // - double
   // O tipo double, é utilizado para atribuir a variável, valores que não sejam inteiros. Como assim ? Isto quer dizer que o valor da variável deverá ser números com ponto, separando os algarismos, e deverá conter valores após o ponto.
 
   double numeroQualquer = 70.5;
+  print(numeroQualquer);
 
 
   // - bool
@@ -29,6 +32,7 @@ void main() {
   // Em uma variável do tipo bool, o valor será sempre true ou false.
 
   bool mineiro = true;
+  print(mineiro);
 
 
   // - List
@@ -40,5 +44,7 @@ void main() {
   
   List<String> nomes = ['Lucas', 'Chica', 'Jack'];
   List<int> numerosAleatorios = [1, 10, 100, 1000];
-
+  
+  print(nomes);
+  print(numerosAleatorios);
 }
